@@ -1,0 +1,13 @@
+﻿@model int
+<h1>Number: @Model</h1>
+<a href="/" class="btn btn-primary">Increment</a>
+<br />
+<input type="text" id="override-num" class="form-control" style="width: 250px;" />
+<button class="btn btn-success" id="override">Override</button>
+<button class="btn btn-danger" id="delete">Delete</button>
+
+@section scripts
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="/Scripts/index.js"></script>
+}
